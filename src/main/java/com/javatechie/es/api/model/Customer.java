@@ -7,7 +7,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Document(indexName="javatechie",type="customer",shards=2)
+@Document(indexName="my-application",type="customer",shards=2)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
